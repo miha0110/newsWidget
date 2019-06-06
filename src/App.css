@@ -1,33 +1,63 @@
-.App {
-  text-align: center;
+
+
+h3 {
+  margin: 0px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h5 {
+  color: red;
+  margin: 5px 0px 0px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tile {
+  border: white 3px solid;
+  border-width: 3px 3px 3px 3px; 
+  overflow: hidden;
+  height: 250px;
+  /* border-radius: 5px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-link {
-  color: #61dafb;
+.topLeft {
+  border-color: #27c7bb white white #27c7bb; 
+  border-radius: 25px 0px 0px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topRight {
+  border-color: #27c7bb #27c7bb white white; 
+  border-radius: 0px 25px 0px 0px;
 }
+
+.bottomLeft {
+  border-color: white white #27c7bb #27c7bb;
+  border-radius: 0px 0px 0px 25px;
+}
+
+.centerBottom {
+  border-color: white white #27c7bb white;
+}
+
+.bottomRight {
+  border-color: white #27c7bb #27c7bb white;
+  border-radius: 0px 0px 25px 0px;
+}
+
+.container{
+  padding-top: 5%;
+  width: 80%;
+  margin: auto;
+  
+}
+
+.weather, .finance{
+  position:relative;
+  height: 100%; 
+}
+
+.tileFooter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
