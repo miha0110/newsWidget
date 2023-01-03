@@ -9,7 +9,7 @@
     "react-google-charts": "^3.0.12",
     "react-linechart": "^1.1.12",
     "react-modal": "^3.8.1",
-    "react-scripts": "2.1.8"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
